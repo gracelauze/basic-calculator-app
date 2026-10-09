@@ -1,0 +1,38 @@
+#answer-box {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 250px;
+  height: 75px;
+  border: 5px solid black;
+  font-size: 50px;
+}
+
+#answer-display {
+  margin: 0;
+}
+
+#b-clear {
+  width: auto;
+}
+
+#calc-body {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 250px;
+  background: rgb(219, 218, 218);
+}
+
+button {
+  width: 75px;
+  height: 75px;
+  margin: 2px;
+  border-width: 5px;
+  background: rgb(199, 197, 197);
+  font-size: 50px;
+}
